@@ -177,7 +177,7 @@ const Sidebar = () => {
 						<Item
 							icon={<BarChartOutlinedIcon />}
 							title={"Bar Chart"}
-							to={"/faq"}
+							to={"/bar"}
 							selected={selected}
 							setSelected={setSelected}
 						/>

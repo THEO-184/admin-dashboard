@@ -10,6 +10,7 @@ import {
 	MockPieData,
 	MockTransactions,
 } from "../common/interfaces/data";
+import { BarDatum } from "@nivo/bar";
 
 export const mockDataTeam: MockDataTeamInterface[] = [
 	{
@@ -328,7 +329,7 @@ export const mockTransactions: MockTransactions[] = [
 	},
 ];
 
-export const mockBarData: MockBarData[] = [
+export const mockBarData: BarDatum[] = [
 	{
 		country: "AD",
 		"hot dog": 137,
