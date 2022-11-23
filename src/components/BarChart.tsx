@@ -1,4 +1,3 @@
-import React from "react";
 import { ResponsiveBar } from "@nivo/bar";
 import { Typography, useTheme } from "@mui/material";
 import { tokens } from "../theme";
@@ -154,6 +153,10 @@ const BarChart = ({ isDashboard }: Props) => {
 			}}
 		/>
 	);
+};
+
+BarChart.defaultProps = {
+	isDashboard: false,
 };
 
 export default BarChart;

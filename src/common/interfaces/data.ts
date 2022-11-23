@@ -56,6 +56,7 @@ export interface Coordinates {
 
 export interface MockLineData {
 	id: string;
+	color: string;
 	data: Coordinates[];
 }
 
